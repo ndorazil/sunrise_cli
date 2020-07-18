@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require_relative "../lib/sunrise_cli"
+
+SunriseCli::CLI.new.start
