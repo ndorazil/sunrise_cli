@@ -1,18 +1,18 @@
 PATH
   remote: .
   specs:
-    sunrise-cli (0.1.0)
+    sunrise_cli (0.1.0)
       http
 
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     diff-lcs (1.4.4)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
-    ffi (1.13.1)
+    ffi (1.15.3)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
@@ -21,12 +21,12 @@ GEM
       http-cookie (~> 1.0)
       http-form_data (~> 2.2)
       http-parser (~> 1.2.0)
-    http-cookie (1.0.3)
+    http-cookie (1.0.4)
       domain_name (~> 0.5)
     http-form_data (2.3.0)
-    http-parser (1.2.1)
+    http-parser (1.2.3)
       ffi-compiler (>= 1.0, < 2.0)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     rake (12.3.2)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -52,7 +52,7 @@ DEPENDENCIES
   bundler (~> 2.0)
   rake (~> 12.0)
   rspec (~> 3.0)
-  sunrise-cli!
+  sunrise_cli!
 
 BUNDLED WITH
    2.1.4
